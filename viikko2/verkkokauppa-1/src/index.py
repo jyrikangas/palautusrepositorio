@@ -1,10 +1,10 @@
 from kauppa import Kauppa
 from kirjanpito import Kirjanpito
 
-
 def main():
     kauppa = Kauppa()
 
+    kirjanpito = kauppa._varasto._kirjanpito
     # kauppa hoitaa yhden asiakkaan kerrallaan seuraavaan tapaan:
     kauppa.aloita_asiointi()
     kauppa.lisaa_koriin(1)
@@ -22,7 +22,7 @@ def main():
     kauppa.tilimaksu("Arto Vihavainen", "3425-1652")
 
     # kirjanpito
-    for tapahtuma in Kirjanpito.get_instance().tapahtumat:
+    for tapahtuma in kirjanpito.tapahtumat:
         print(tapahtuma)
 
 
