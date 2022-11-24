@@ -29,6 +29,7 @@ class Ostoskori:
                 return
         ostos = Ostos(lisattava)
         self.ostoslista.append(ostos)
+
     def poista_tuote(self, poistettava: Tuote):
         for ostos in self.ostoslista:
             if ostos.tuotteen_nimi() == poistettava.nimi():
