@@ -4,5 +4,3 @@ muutos 2
 
 https://github.com/jyrikangas/ohtuvarasto
 
-
-muutos
