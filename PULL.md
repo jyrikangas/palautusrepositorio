@@ -1,1 +1,1 @@
-[pull request](https://github.com/mleikas/sweetsixteen/pull/1/)
+https://github.com/mleikas/sweetsixteen/pull/1/
